@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+# Documentation for this app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App with template TypeScript](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## To setup this project follow below steps:
 
-In the project directory, you can run:
+1. Install node and npm (my versions of `node`=14.15.5 and `npm`=6.14.11)
+2. Install Git (`optional`)
+3. Goto project directory and do `npm i` this will install node packages
+4. Type `npm start` it will run the project on `localhost:3000`
+5. To test and generate code coverage type `npm test -- --coverage`
 
-### `npm start`
+## Details of development approach followed:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Components are put together in the components folder
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- `4` components are created
+- `Customers.tsx` - Parent component for filtering between Admin and Manager
+- `Spinner.tsx` - For showing spinner while fetching data from API
+- `ListCustomers.tsx` - For showing List of customers in paginated format with current limit set to 50 per page
+- `CustomerItem.tsx` - Component for each item of the list of customers
 
-### `npm test`
+2. Other folders
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- `enums` - Consist of enums for Customer role type
+- `queries` - Contains Graphql queries
+- `models` - Contains response model for Graphql API
+- `utils` - Contains helpers functions
+- `config` - Contains AWS config and Apollo client config files
 
-### `npm run build`
+3. Libraries used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- `apollo`
+- `graphql-tag`
+- `jest`
+- `aws-appsync-auth-link`
+- `react-paginate`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Please connect at abhishekkedar246[at]hotmail.com for any further details

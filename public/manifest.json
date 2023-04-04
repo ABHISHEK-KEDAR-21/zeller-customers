@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Zeller customer",
+  "name": "App to list down admins and managers",
   "icons": [
     {
       "src": "favicon.ico",
