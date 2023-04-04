@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/zeller-customers/static/css/main.318fa728.css",
+    "main.js": "/zeller-customers/static/js/main.9741f1d0.js",
+    "static/js/496.a45f1bb8.chunk.js": "/zeller-customers/static/js/496.a45f1bb8.chunk.js",
+    "index.html": "/zeller-customers/index.html",
+    "main.318fa728.css.map": "/zeller-customers/static/css/main.318fa728.css.map",
+    "main.9741f1d0.js.map": "/zeller-customers/static/js/main.9741f1d0.js.map",
+    "496.a45f1bb8.chunk.js.map": "/zeller-customers/static/js/496.a45f1bb8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.318fa728.css",
+    "static/js/main.9741f1d0.js"
+  ]
+}
