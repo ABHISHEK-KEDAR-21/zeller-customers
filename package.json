@@ -6,6 +6,7 @@
     "name": "Abhishek Kedar",
     "email": "abhishekkedar246@hotmail.com"
   },
+  "homepage": "https://abhishek-kedar-21.github.io/zeller-customers",
   "dependencies": {
     "@apollo/client": "^3.7.11",
     "@testing-library/jest-dom": "^5.16.5",
@@ -35,7 +36,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -56,6 +59,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "jest-watch-typeahead": "^0.6.5"
   }
 }
